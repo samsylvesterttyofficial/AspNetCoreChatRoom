@@ -11,6 +11,9 @@ namespace AspNetCoreChatRoom
             // Testing staging
             // Testing No Access Testing by unauthorized
             // Testing sync functionality
+
+            // DEMO CHANGES
+
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
